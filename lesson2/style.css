@@ -1,0 +1,26 @@
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.points {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.active {
+    background-color: gold;
+} 
