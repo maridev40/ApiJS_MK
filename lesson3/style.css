@@ -1,0 +1,25 @@
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+ 
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.marks {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}

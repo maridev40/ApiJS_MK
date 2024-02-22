@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="unsplash.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Unsplash</title>
+</head>
+
+<body>
+    <div class="container center">
+        <div class="photograf row">
+            <p>Фотограф: </p>
+            <p class="photograf_name"></p>
+        </div>
+        <div class="description row">
+            <p>Описание: </p>
+            <p class="description_text"></p>
+        </div>
+        <div class="img">
+            <img id="img" src="" alt="">
+        </div>
+        <div class="marks">
+            <div class="likes row alignCenter">
+                <p>likes: </p>
+                <div class="likes_count">0</div>
+                <button class="likes_button">+1</button>
+            </div>
+            <div class="dislikes row alignCenter">
+                <p>dislikes: </p>
+                <div class="dislikes_count">0</div>
+                <button class="dislikes_button">-1</button>
+            </div>
+        </div>
+        <div class="history row alignCenter">
+            <div class="likes row">
+                <button class="prev_button"> < </button>
+            </div>
+            <div>
+                <button class="next_button"> > </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
